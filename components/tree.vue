@@ -36,7 +36,7 @@ export default {
 
 <style>
 .textf fieldset {
-  border: none;
+  border: none !important;
 }
 </style>
 
