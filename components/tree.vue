@@ -1,10 +1,5 @@
 <template>
-  <!-- <ul>
-    <li v-for="leave in data" :key="leave.title">
-    </li>
-  </ul> -->
-
-  <v-expansion-panels v-model="opens" multiple>
+  <v-expansion-panels v-model="opens" multiple flat hover>
     <v-expansion-panel v-for="(leave, i) in data" :key="i" multiple>
       <v-expansion-panel-header>
         <v-text-field
