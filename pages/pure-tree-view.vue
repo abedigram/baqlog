@@ -1,17 +1,13 @@
 <template>
   <v-row justify="center">
-    <v-col xl="2" lg="3" md="5" sm="10" cols="12">
+    <v-col xl="3" lg="4" md="6" sm="8" cols="12">
       <PureTree :data="tree" />
     </v-col>
   </v-row>
 </template>
 
 <script>
-import PureTree from "~/components/pure-tree.vue";
 export default {
-  components: {
-    PureTree,
-  },
   data: () => {
     return {
       tree: [
@@ -24,7 +20,7 @@ export default {
               title: "jack-J",
               children: [
                 {
-                  id: "122484",
+                  id: "1224284",
                   title: "jackC1",
                   children: [],
                 },
